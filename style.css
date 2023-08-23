@@ -1,0 +1,81 @@
+.container{
+    height: 130px;
+    width: 800px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.container2{
+    height: 180px;
+    width: 800px;
+    background-color: beige;
+    border: 4px solid black;
+}
+.box1{
+    position: absolute;
+    left: 20%;
+}
+.container3{
+    height: 230px;
+    width: 800px;
+    background-color: beige;
+    border: 4px solid black;
+}
+#Flex-Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.FlexColumn {
+    flex-direction: column;
+    transition: all 2.5s ease-in;
+}
+
+.card {
+    background-color: rgb(65, 130, 75);
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+.Clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.timeLabel {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+    font-size: 14px;
+}
+#hourLabel,
+#minLabel,
+#secLabel,
+#AMPM {
+    color: rgb(71, 71, 255);
+    font-weight: bolder;
+    font-size: 18px;
+}
+.container4{
+    height: 500px;
+    width: 600px;
+    background-color: coral;
+    border: 2px solid black;
+}
+.container5{
+   background-color: antiquewhite; 
+}
+.container6{
+    height: 230px;
+    width: 800px;
+    background-color: beige;
+    border: 4px solid black;
+}

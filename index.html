@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+    <h2>  Q.1 Write the code to access element which is having id as "text"</h2>
+    <h4 style="color: cadetblue;">Answer Code:  let Access = document.getElementById('text');</h4></p>
+   </div>
+   <br><br>
+   <div class="container">
+    <h2> Q.2 Write the code to access element which is having tag as "h1"</h2>
+    <h4 style="color: cadetblue;">Answer code:  let Access = document.getElementByTagNname(h1)</h4>
+   </div>
+   <br><br>
+   <div class="container">
+    <h2> Q.3 Write the code to access element which is having class as "box"</h2>
+    <h4 style="color: cadetblue;">Answer code:  let Access = document.getElementByClassname</h4>
+   </div>
+   <br><br>
+   <div class="container2">
+    <h2> Q.4 Change the heading from "Hello" to "Hello World" using DOM functions"</h2>
+    <section class="box1">
+    <p><h1 id="content">Hello</h1>
+        <button onclick="replace()">Replace</button></p>
+        </section>
+   </div>
+   <br><br>
+   <div class="container3">
+    <h2> Q.5 Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content
+            should be changed to "Welcome to Elevation academy" 
+    </h2>
+    <section class="box1">
+    <h1 id="content1">Hello World</h1>
+    <button id="button1" onclick="replaceText()">Replace Text</button>
+    </section>
+   </div>
+   <br><br>
+   <div class="container3">
+    <h2> Q.6 Add one style attribute and give text color as red and id attribute and give the id value as "heading" in the above given h1
+        tag using DOM functions"</h2>
+            <h1 class="Test6">Hello World</h1>
+   </div>
+   <br><br>
+   <div class="container4">
+    <h2> Q.7Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at
+            the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical
+            direction.</h2>
+                <div id="Flex-Container">
+                  <p class="card"></p>
+                  <p class="card"></p>
+                  <p class="card"></p>
+                </div>
+                <button id="ChangeDirection">Change Flex Direction</button>
+   </div>
+   <br><br>
+   <div class="container5">
+   <h2> Q.8 What’s the difference between window vs document?</h2>
+   <table border="2">
+    <tr>
+      <th>Window</th>
+      <th>Document</th>
+    </tr>
+    <tr>
+      <td>It represents a browser window or frame that displays the contents of the webpage.</td>
+      <td>It represents any HTML document or web page that is loaded in the browser.</td>
+    </tr>
+    <tr>
+      <td>It is the very first object that is loaded in the browser.</td>
+      <td>It is loaded inside the window.</td>
+    </tr>
+    <tr>
+      <td>Global objects, functions, and variables of JavaScript are members of the window object.</td>
+      <td>All the tags, elements with attributes in HTML are part of the document.</td>
+    </tr>
+    <tr>
+      <td>syntax: document.propertyname;</td>
+      <td>syntax: window.propertyname;</td>
+    </tr>
+  </table>
+   </div>
+   <br><br>
+   <div class="container6">
+    <h2> Q.9 Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second?</h2>
+    <div class="Clock">
+        <p class="timeLabel">Hour<span id="hourLabel"></span></p>
+        <p class="timeLabel">Min<span id="minLabel"></span></p>
+        <p class="timeLabel">Sec<span id="secLabel"></span></p>
+        <p class="timeLabel"><span id="AMPM"></span></p>
+      </div>
+</div>
+   <script src="./script.js"></script>
+    
+</body>
+</html>
